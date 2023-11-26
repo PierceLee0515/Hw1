@@ -1,5 +1,21 @@
-# Hw1
-         .font(.system(size: 45, weight: .bold))
+<h1>HW1</h1>
+
+```swift
+
+
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        ZStack{
+            
+            Rectangle()
+                .fill(Color.pink)
+                .frame(minWidth: 0, idealWidth: 100, maxWidth: .infinity, minHeight: 0, idealHeight: 100, maxHeight: .infinity, alignment: .center)
+                .ignoresSafeArea(.all)
+            VStack{
+                Text("1101527 李奕翔")
+                    .font(.system(size: 45, weight: .bold))
                     .frame(width: 400, height: 100, alignment: .center)
                     .padding(.top, 0)
                     .foregroundColor(.black)
