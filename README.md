@@ -1,3 +1,4 @@
+![IMG_0480](https://github.com/PierceLee0515/Hw1/assets/149958668/9897fa99-ad65-4813-80a6-5e1bfff6c831)
 <h1>HW1</h1>
 
 ```swift
